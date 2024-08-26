@@ -6,6 +6,11 @@
 
 | PoS Epoch | Validators | Total Rewards |
 | --------: | ---------: | ------------: |
+|        27 |         10 |             4 |
+|        26 |         10 |             4 |
+|        25 |         10 |             4 |
+|        24 |         10 |             4 |
+|        23 |         10 |             4 |
 |        22 |         11 |             4 |
 |        21 |         11 |             4 |
 |        20 |         11 |             3 |
@@ -26,6 +31,97 @@
 |         5 |          7 |             4 |
 |         4 |          7 |             3 |
 |         3 |          6 |             4 |
+
+
+## Epoch 27
+
+Height: 16449200 ~ 16650799
+
+| Validator    | RewardTo Address                             | Miner Address                                | Mined Blocks | Offline > 4h | Slashed | Reward |
+| ------------ | -------------------------------------------- | -------------------------------------------- | ------------ | ------------ | ------- | ------ |
+| matrixport   | `0x9a6dd2f7ceb71788de691844d16b6b6852f07aa3` | `0x930c23ce7536b0ede6afe7754134d4011217d6aa` | 20161        |              |         | 0.4    |
+| SmartVal     | `0x827594fafd443784c85404575214c9a965dda4e6` | `0xf22a003226b2221b00906c7435c2eb582223c5c2` | 20166        |              |         | 0.4    |
+| 코인판크토시 | `0x492c54e25e98f735b55604c7b11ded202432a830` | `0x32e716daa7c8c2a8af5759bdb2df28df74bbf627` | 20233        |              |         | 0.4    |
+| ViaBTC       | `0x47fec48177b189598297789dff6a564dcaef64eb` | `0xa928a5794d9852389ff572b1941a672274c6c44a` | 20166        |              |         | 0.4    |
+| RabbitBCH    | `0x4e7607655a31b9df8b60ee9a1dd527f868c106a2` | `0xfd46d618d0cd459f791f44d9c6e54302658ad142` | 20161        |              |         | 0.4    |
+| Benswap.cash | `0x2c800937861fc5140955c791bcf021c31fd46d76` | `0x2feb93041fc652b1326a2f07baec5caa8d2353a9` | 20156        |              |         | 0.4    |
+| KimDotCool   | `0x42bde43b98a35885f65e6999412ed7af12f21606` | `0x8bce68c4092c2d0dc369682520ba31f833518036` | 20084        |              |         | 0.4    |
+| BitDeer      | `0xf70d0b3af64f7ec01bbec6d7468cafecd08d5645` | `0x214CF857DAC52298955768763CE0F8E92F0DCCC6` | 20159        |              |         | 0.4    |
+| SatoshiVision| `0xfd2da63e149d056bd1f66638cd8de775ab73a24d` | `0x2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2` | 20160        |              |         | 0.4    |
+| chzhx        | `0xe7f72265695a635574cbc60b47cf95c73c80f602` | `0xA0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0` | 20164        |              |         | 0.4    |
+
+
+## Epoch 26
+
+Height: 16247600 ~ 16449199
+
+| Validator    | RewardTo Address                             | Miner Address                                | Mined Blocks | Offline > 4h | Slashed | Reward |
+| ------------ | -------------------------------------------- | -------------------------------------------- | ------------ | ------------ | ------- | ------ |
+| matrixport   | `0x9a6dd2f7ceb71788de691844d16b6b6852f07aa3` | `0x930c23ce7536b0ede6afe7754134d4011217d6aa` | 20161        |              |         | 0.4    |
+| SmartVal     | `0x827594fafd443784c85404575214c9a965dda4e6` | `0xf22a003226b2221b00906c7435c2eb582223c5c2` | 20163        |              |         | 0.4    |
+| 코인판크토시 | `0x492c54e25e98f735b55604c7b11ded202432a830` | `0x32e716daa7c8c2a8af5759bdb2df28df74bbf627` | 20196        |              |         | 0.4    |
+| ViaBTC       | `0x47fec48177b189598297789dff6a564dcaef64eb` | `0xa928a5794d9852389ff572b1941a672274c6c44a` | 20161        |              |         | 0.4    |
+| RabbitBCH    | `0x4e7607655a31b9df8b60ee9a1dd527f868c106a2` | `0xfd46d618d0cd459f791f44d9c6e54302658ad142` | 20161        |              |         | 0.4    |
+| Benswap.cash | `0x2c800937861fc5140955c791bcf021c31fd46d76` | `0x2feb93041fc652b1326a2f07baec5caa8d2353a9` | 20159        |              |         | 0.4    |
+| KimDotCool   | `0x42bde43b98a35885f65e6999412ed7af12f21606` | `0x8bce68c4092c2d0dc369682520ba31f833518036` | 20126        |              |         | 0.4    |
+| BitDeer      | `0xf70d0b3af64f7ec01bbec6d7468cafecd08d5645` | `0x214CF857DAC52298955768763CE0F8E92F0DCCC6` | 20161        |              |         | 0.4    |
+| SatoshiVision| `0xfd2da63e149d056bd1f66638cd8de775ab73a24d` | `0x2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2` | 20155        |              |         | 0.4    |
+| chzhx        | `0xe7f72265695a635574cbc60b47cf95c73c80f602` | `0xA0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0` | 20167        |              |         | 0.4    |
+
+
+## Epoch 25
+
+Height: 16046000 ~ 16247599
+
+| Validator    | RewardTo Address                             | Miner Address                                | Mined Blocks | Offline > 4h | Slashed | Reward |
+| ------------ | -------------------------------------------- | -------------------------------------------- | ------------ | ------------ | ------- | ------ |
+| matrixport   | `0x9a6dd2f7ceb71788de691844d16b6b6852f07aa3` | `0x930c23ce7536b0ede6afe7754134d4011217d6aa` | 20161        |              |         | 0.4    |
+| SmartVal     | `0x827594fafd443784c85404575214c9a965dda4e6` | `0xf22a003226b2221b00906c7435c2eb582223c5c2` | 20163        |              |         | 0.4    |
+| 코인판크토시 | `0x492c54e25e98f735b55604c7b11ded202432a830` | `0x32e716daa7c8c2a8af5759bdb2df28df74bbf627` | 20188        |              |         | 0.4    |
+| ViaBTC       | `0x47fec48177b189598297789dff6a564dcaef64eb` | `0xa928a5794d9852389ff572b1941a672274c6c44a` | 20162        |              |         | 0.4    |
+| RabbitBCH    | `0x4e7607655a31b9df8b60ee9a1dd527f868c106a2` | `0xfd46d618d0cd459f791f44d9c6e54302658ad142` | 20342        |              |         | 0.4    |
+| Benswap.cash | `0x2c800937861fc5140955c791bcf021c31fd46d76` | `0x2feb93041fc652b1326a2f07baec5caa8d2353a9` | 20159        |              |         | 0.4    |
+| KimDotCool   | `0x42bde43b98a35885f65e6999412ed7af12f21606` | `0x8bce68c4092c2d0dc369682520ba31f833518036` | 20133        |              |         | 0.4    |
+| BitDeer      | `0xf70d0b3af64f7ec01bbec6d7468cafecd08d5645` | `0x214CF857DAC52298955768763CE0F8E92F0DCCC6` | 20160        |              |         | 0.4    |
+| SatoshiVision| `0xfd2da63e149d056bd1f66638cd8de775ab73a24d` | `0x2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2` | 20161        |              |         | 0.4    |
+| chzhx        | `0xe7f72265695a635574cbc60b47cf95c73c80f602` | `0xA0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0` | 19981        |              |         | 0.4    |
+
+
+## Epoch 24
+
+Height: 15844400 ~ 16045999
+
+| Validator    | RewardTo Address                             | Miner Address                                | Mined Blocks | Offline > 4h | Slashed | Reward |
+| ------------ | -------------------------------------------- | -------------------------------------------- | ------------ | ------------ | ------- | ------ |
+| matrixport   | `0x9a6dd2f7ceb71788de691844d16b6b6852f07aa3` | `0x930c23ce7536b0ede6afe7754134d4011217d6aa` | 20161        |              |         | 0.4    |
+| SmartVal     | `0x827594fafd443784c85404575214c9a965dda4e6` | `0xf22a003226b2221b00906c7435c2eb582223c5c2` | 20161        |              |         | 0.4    |
+| 코인판크토시 | `0x492c54e25e98f735b55604c7b11ded202432a830` | `0x32e716daa7c8c2a8af5759bdb2df28df74bbf627` | 20205        |              |         | 0.4    |
+| ViaBTC       | `0x47fec48177b189598297789dff6a564dcaef64eb` | `0xa928a5794d9852389ff572b1941a672274c6c44a` | 20162        |              |         | 0.4    |
+| RabbitBCH    | `0x4e7607655a31b9df8b60ee9a1dd527f868c106a2` | `0xfd46d618d0cd459f791f44d9c6e54302658ad142` | 20161        |              |         | 0.4    |
+| Benswap.cash | `0x2c800937861fc5140955c791bcf021c31fd46d76` | `0x2feb93041fc652b1326a2f07baec5caa8d2353a9` | 20161        |              |         | 0.4    |
+| KimDotCool   | `0x42bde43b98a35885f65e6999412ed7af12f21606` | `0x8bce68c4092c2d0dc369682520ba31f833518036` | 20116        |              |         | 0.4    |
+| BitDeer      | `0xf70d0b3af64f7ec01bbec6d7468cafecd08d5645` | `0x214CF857DAC52298955768763CE0F8E92F0DCCC6` | 20158        |              |         | 0.4    |
+| SatoshiVision| `0xfd2da63e149d056bd1f66638cd8de775ab73a24d` | `0x2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2` | 20164        |              |         | 0.4    |
+| chzhx        | `0xe7f72265695a635574cbc60b47cf95c73c80f602` | `0xA0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0` | 20161        |              |         | 0.4    |
+
+
+## Epoch 23
+
+Height: 15642800 ~ 15844399
+
+| Validator    | RewardTo Address                             | Miner Address                                | Mined Blocks | Offline > 4h | Slashed | Reward |
+| ------------ | -------------------------------------------- | -------------------------------------------- | ------------ | ------------ | ------- | ------ |
+| matrixport   | `0x9a6dd2f7ceb71788de691844d16b6b6852f07aa3` | `0x930c23ce7536b0ede6afe7754134d4011217d6aa` | 20161        |              |         | 0.4    |
+| SmartVal     | `0x827594fafd443784c85404575214c9a965dda4e6` | `0xf22a003226b2221b00906c7435c2eb582223c5c2` | 20164        |              |         | 0.4    |
+| 코인판크토시 | `0x492c54e25e98f735b55604c7b11ded202432a830` | `0x32e716daa7c8c2a8af5759bdb2df28df74bbf627` | 20215        |              |         | 0.4    |
+| ViaBTC       | `0x47fec48177b189598297789dff6a564dcaef64eb` | `0xa928a5794d9852389ff572b1941a672274c6c44a` | 20162        |              |         | 0.4    |
+| RabbitBCH    | `0x4e7607655a31b9df8b60ee9a1dd527f868c106a2` | `0xfd46d618d0cd459f791f44d9c6e54302658ad142` | 20161        |              |         | 0.4    |
+| Benswap.cash | `0x2c800937861fc5140955c791bcf021c31fd46d76` | `0x2feb93041fc652b1326a2f07baec5caa8d2353a9` | 20158        |              |         | 0.4    |
+| KimDotCool   | `0x42bde43b98a35885f65e6999412ed7af12f21606` | `0x8bce68c4092c2d0dc369682520ba31f833518036` | 20106        |              |         | 0.4    |
+| BitDeer      | `0xf70d0b3af64f7ec01bbec6d7468cafecd08d5645` | `0x214CF857DAC52298955768763CE0F8E92F0DCCC6` | 20160        |              |         | 0.4    |
+| SatoshiVision| `0xfd2da63e149d056bd1f66638cd8de775ab73a24d` | `0x2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2` | 20161        |              |         | 0.4    |
+| chzhx        | `0xe7f72265695a635574cbc60b47cf95c73c80f602` | `0xA0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0` | 20162        |              |         | 0.4    |
+
 
 
 ## Epoch 22
