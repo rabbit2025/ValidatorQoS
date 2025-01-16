@@ -1,11 +1,11 @@
-% node main.js 29
+$ node main.js 31
 curr epoch number: 38
 curr epoch start : 18666800
 curr epoch end   : 18868399
-latest height    : 18678314 (11514/201600)
-query posEpochNum: 29
-epochStartH      : 16852400
-epochEndH        : 17053999
+latest height    : 18692784 (25984/201600)
+query posEpochNum: 31
+epochStartH      : 17255600
+epochEndH        : 17457199
 startValsInfo:
 ┌─────────┬──────────────────┬──────────────────────────────────────────────┬───────┬──────────┐
 │ (index) │      intro       │                    miner                     │  vp   │ retiring │
@@ -31,66 +31,78 @@ endValsInfo:
 │    3    │     'ViaBTC'     │ '0xA928A5794D9852389FF572B1941A672274C6C44A' │ 10000 │  false   │
 │    4    │   'RabbitBCH'    │ '0xFD46D618D0CD459F791F44D9C6E54302658AD142' │ 10000 │  false   │
 │    5    │  'Benswap.cash'  │ '0x2FEB93041FC652B1326A2F07BAEC5CAA8D2353A9' │ 10000 │  false   │
-│    6    │   'KimDotCool'   │ '0x8BCE68C4092C2D0DC369682520BA31F833518036' │ 10000 │  false   │
-│    7    │    'BitDeer'     │ '0x214CF857DAC52298955768763CE0F8E92F0DCCC6' │ 10000 │  false   │
-│    8    │ 'Satoshi Vision' │ '0x2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2' │ 10000 │  false   │
-│    9    │     'chzhx'      │ '0xA0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0' │ 10000 │  false   │
+│    6    │    'BitDeer'     │ '0x214CF857DAC52298955768763CE0F8E92F0DCCC6' │ 10000 │  false   │
+│    7    │ 'Satoshi Vision' │ '0x2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2' │ 10000 │  false   │
+│    8    │     'chzhx'      │ '0xA0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0' │ 10000 │  false   │
+│    9    │    'songoku'     │ '0xFAC3A668D5BED3DDBD854B647E3113946BE3306A' │ 10000 │  false   │
+│   10    │   'New KimDot'   │ '0x8A37E57702D4E1EBEBFFBCE1D74ADE0C4DA321A5' │ 10000 │  false   │
 └─────────┴──────────────────┴──────────────────────────────────────────────┴───────┴──────────┘
-slashedVals: []
-get block: 17053999, ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+slashedVals: [
+  {
+    address: '0x42bde43b98a35885f65e6999412ed7af12f21606',
+    pubkey: '0x4b65ae6ba951791541631de650a6df35fa37a994d373fb3d5aebaaa4f2350751',
+    reward_to: '0x42bde43b98a35885f65e6999412ed7af12f21606',
+    voting_power: 10000,
+    introduction: 'KimDotCool',
+    staked_coins: '0x000000000000000000000000000000000000000000000001bc16d674ec800000',
+    is_retiring: false,
+    miner_address: '8BCE68C4092C2D0DC369682520BA31F833518036'
+  }
+]
+get block: 17457199, ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 lastMinedBlockMap: [
   {
     miner: '0x214CF857dAC52298955768763Ce0f8e92f0dCcc6',
-    block: 17053990
+    block: 17457190
   },
   {
     miner: '0x2BB0818fdA78E9432B4Fde90613fD9619DDAfcd2',
-    block: 17053991
+    block: 17457191
   },
   {
     miner: '0xA0AD8f2f1799f7C2CB317fee0BBB25D0142f6aB0',
-    block: 17053992
+    block: 17457192
   },
   {
     miner: '0xFd46d618d0cD459F791F44D9C6E54302658aD142',
-    block: 17053993
+    block: 17457193
   },
   {
     miner: '0x2feb93041fC652B1326a2F07BAEC5Caa8D2353a9',
-    block: 17053994
+    block: 17457194
   },
   {
     miner: '0xF22a003226b2221b00906C7435C2eB582223C5C2',
-    block: 17053995
+    block: 17457195
   },
   {
     miner: '0x930C23CE7536B0ede6AfE7754134d4011217D6AA',
-    block: 17053996
+    block: 17457196
   },
   {
     miner: '0x8bCe68c4092C2d0Dc369682520Ba31F833518036',
-    block: 17053997
+    block: 17457197
   },
   {
     miner: '0x32e716daA7C8C2A8AF5759bdB2DF28Df74bbf627',
-    block: 17053998
+    block: 17457198
   },
   {
     miner: '0xA928a5794D9852389FF572b1941A672274c6C44A',
-    block: 17053999
+    block: 17457199
   }
 ]
 minedBlocksMap: Map(10) {
   '0x214CF857dAC52298955768763Ce0f8e92f0dCcc6' => 20160,
-  '0x2BB0818fdA78E9432B4Fde90613fD9619DDAfcd2' => 20159,
-  '0xA0AD8f2f1799f7C2CB317fee0BBB25D0142f6aB0' => 20164,
+  '0x2BB0818fdA78E9432B4Fde90613fD9619DDAfcd2' => 20160,
+  '0xA0AD8f2f1799f7C2CB317fee0BBB25D0142f6aB0' => 20163,
   '0xFd46d618d0cD459F791F44D9C6E54302658aD142' => 20161,
-  '0x2feb93041fC652B1326a2F07BAEC5Caa8D2353a9' => 20159,
-  '0xF22a003226b2221b00906C7435C2eB582223C5C2' => 20163,
+  '0x2feb93041fC652B1326a2F07BAEC5Caa8D2353a9' => 20160,
+  '0xF22a003226b2221b00906C7435C2eB582223C5C2' => 20162,
   '0x930C23CE7536B0ede6AfE7754134d4011217D6AA' => 20161,
-  '0x8bCe68c4092C2d0Dc369682520Ba31F833518036' => 20112,
-  '0x32e716daA7C8C2A8AF5759bdB2DF28Df74bbf627' => 20207,
-  '0xA928a5794D9852389FF572b1941A672274c6C44A' => 20164
+  '0x8bCe68c4092C2d0Dc369682520Ba31F833518036' => 20135,
+  '0x32e716daA7C8C2A8AF5759bdB2DF28Df74bbf627' => 20186,
+  '0xA928a5794D9852389FF572b1941A672274c6C44A' => 20162
 }
 offlineMinerMap: Map(0) {}
 delayedBlocks: []

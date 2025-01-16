@@ -7,37 +7,35 @@ query posEpochNum: 30
 epochStartH      : 17054000
 epochEndH        : 17255599
 startValsInfo:
-┌─────────┬──────────────────┬────────────────────────────────────────────┬───────┬──────────┐
-│ (index) │      intro       │                   miner                    │  vp   │ retiring │
-├─────────┼──────────────────┼────────────────────────────────────────────┼───────┼──────────┤
-│    0    │   'matrixport'   │ '930C23CE7536B0EDE6AFE7754134D4011217D6AA' │ 10000 │  false   │
-│    1    │    'SmartVal'    │ 'F22A003226B2221B00906C7435C2EB582223C5C2' │ 10000 │  false   │
-│    2    │  '코인판크토시'  │ '32E716DAA7C8C2A8AF5759BDB2DF28DF74BBF627' │ 10000 │  false   │
-│    3    │     'ViaBTC'     │ 'A928A5794D9852389FF572B1941A672274C6C44A' │ 10000 │  false   │
-│    4    │   'RabbitBCH'    │ 'FD46D618D0CD459F791F44D9C6E54302658AD142' │ 10000 │  false   │
-│    5    │  'Benswap.cash'  │ '2FEB93041FC652B1326A2F07BAEC5CAA8D2353A9' │ 10000 │  false   │
-│    6    │    'BitDeer'     │ '214CF857DAC52298955768763CE0F8E92F0DCCC6' │ 10000 │  false   │
-│    7    │ 'Satoshi Vision' │ '2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2' │ 10000 │  false   │
-│    8    │     'chzhx'      │ 'A0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0' │ 10000 │  false   │
-│    9    │    'songoku'     │ 'FAC3A668D5BED3DDBD854B647E3113946BE3306A' │ 10000 │  false   │
-│   10    │   'New KimDot'   │ '8A37E57702D4E1EBEBFFBCE1D74ADE0C4DA321A5' │ 10000 │  false   │
-└─────────┴──────────────────┴────────────────────────────────────────────┴───────┴──────────┘
+┌─────────┬──────────────────┬──────────────────────────────────────────────┬───────┬──────────┐
+│ (index) │      intro       │                    miner                     │  vp   │ retiring │
+├─────────┼──────────────────┼──────────────────────────────────────────────┼───────┼──────────┤
+│    0    │   'matrixport'   │ '0x930C23CE7536B0EDE6AFE7754134D4011217D6AA' │ 10000 │  false   │
+│    1    │    'SmartVal'    │ '0xF22A003226B2221B00906C7435C2EB582223C5C2' │ 10000 │  false   │
+│    2    │  '코인판크토시'  │ '0x32E716DAA7C8C2A8AF5759BDB2DF28DF74BBF627' │ 10000 │  false   │
+│    3    │     'ViaBTC'     │ '0xA928A5794D9852389FF572B1941A672274C6C44A' │ 10000 │  false   │
+│    4    │   'RabbitBCH'    │ '0xFD46D618D0CD459F791F44D9C6E54302658AD142' │ 10000 │  false   │
+│    5    │  'Benswap.cash'  │ '0x2FEB93041FC652B1326A2F07BAEC5CAA8D2353A9' │ 10000 │  false   │
+│    6    │   'KimDotCool'   │ '0x8BCE68C4092C2D0DC369682520BA31F833518036' │ 10000 │  false   │
+│    7    │    'BitDeer'     │ '0x214CF857DAC52298955768763CE0F8E92F0DCCC6' │ 10000 │  false   │
+│    8    │ 'Satoshi Vision' │ '0x2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2' │ 10000 │  false   │
+│    9    │     'chzhx'      │ '0xA0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0' │ 10000 │  false   │
+└─────────┴──────────────────┴──────────────────────────────────────────────┴───────┴──────────┘
 endValsInfo:
-┌─────────┬──────────────────┬────────────────────────────────────────────┬───────┬──────────┐
-│ (index) │      intro       │                   miner                    │  vp   │ retiring │
-├─────────┼──────────────────┼────────────────────────────────────────────┼───────┼──────────┤
-│    0    │   'matrixport'   │ '930C23CE7536B0EDE6AFE7754134D4011217D6AA' │ 10000 │  false   │
-│    1    │    'SmartVal'    │ 'F22A003226B2221B00906C7435C2EB582223C5C2' │ 10000 │  false   │
-│    2    │  '코인판크토시'  │ '32E716DAA7C8C2A8AF5759BDB2DF28DF74BBF627' │ 10000 │  false   │
-│    3    │     'ViaBTC'     │ 'A928A5794D9852389FF572B1941A672274C6C44A' │ 10000 │  false   │
-│    4    │   'RabbitBCH'    │ 'FD46D618D0CD459F791F44D9C6E54302658AD142' │ 10000 │  false   │
-│    5    │  'Benswap.cash'  │ '2FEB93041FC652B1326A2F07BAEC5CAA8D2353A9' │ 10000 │  false   │
-│    6    │    'BitDeer'     │ '214CF857DAC52298955768763CE0F8E92F0DCCC6' │ 10000 │  false   │
-│    7    │ 'Satoshi Vision' │ '2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2' │ 10000 │  false   │
-│    8    │     'chzhx'      │ 'A0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0' │ 10000 │  false   │
-│    9    │    'songoku'     │ 'FAC3A668D5BED3DDBD854B647E3113946BE3306A' │ 10000 │  false   │
-│   10    │   'New KimDot'   │ '8A37E57702D4E1EBEBFFBCE1D74ADE0C4DA321A5' │ 10000 │  false   │
-└─────────┴──────────────────┴────────────────────────────────────────────┴───────┴──────────┘
+┌─────────┬──────────────────┬──────────────────────────────────────────────┬───────┬──────────┐
+│ (index) │      intro       │                    miner                     │  vp   │ retiring │
+├─────────┼──────────────────┼──────────────────────────────────────────────┼───────┼──────────┤
+│    0    │   'matrixport'   │ '0x930C23CE7536B0EDE6AFE7754134D4011217D6AA' │ 10000 │  false   │
+│    1    │    'SmartVal'    │ '0xF22A003226B2221B00906C7435C2EB582223C5C2' │ 10000 │  false   │
+│    2    │  '코인판크토시'  │ '0x32E716DAA7C8C2A8AF5759BDB2DF28DF74BBF627' │ 10000 │  false   │
+│    3    │     'ViaBTC'     │ '0xA928A5794D9852389FF572B1941A672274C6C44A' │ 10000 │  false   │
+│    4    │   'RabbitBCH'    │ '0xFD46D618D0CD459F791F44D9C6E54302658AD142' │ 10000 │  false   │
+│    5    │  'Benswap.cash'  │ '0x2FEB93041FC652B1326A2F07BAEC5CAA8D2353A9' │ 10000 │  false   │
+│    6    │   'KimDotCool'   │ '0x8BCE68C4092C2D0DC369682520BA31F833518036' │ 10000 │  false   │
+│    7    │    'BitDeer'     │ '0x214CF857DAC52298955768763CE0F8E92F0DCCC6' │ 10000 │  false   │
+│    8    │ 'Satoshi Vision' │ '0x2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2' │ 10000 │  false   │
+│    9    │     'chzhx'      │ '0xA0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0' │ 10000 │  false   │
+└─────────┴──────────────────┴──────────────────────────────────────────────┴───────┴──────────┘
 slashedVals: []
 get block: 17255599, ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 lastMinedBlockMap: [
