@@ -5,8 +5,8 @@ const purePosEpochBlocks = 201600;
 const minBlockInterval = 3 * 60;
 const minMinerGap = 4 * 3600;
 
-const sbchRpcUrl = 'https://rpc.smartbch.org';
-// const sbchRpcUrl = 'http://52.77.220.215:8545'; // archive node
+// const sbchRpcUrl = 'https://rpc.smartbch.org';
+const sbchRpcUrl = 'http://52.77.220.215:8545'; // archive node
 const provider = new ethers.JsonRpcProvider(sbchRpcUrl);
 
 
@@ -42,7 +42,7 @@ async function queryEpoch(posEpochNum) {
   console.table(simpleValInfo(endValsInfo));
   console.log('slashedVals:', slashedVals);
 
-  const queueLen = 100;
+  const queueLen = 50;
   const getBlock = asyncGetBlockFn(epochStartH, epochEndH, queueLen);
   const minedBlocksMap = new Map();
   const lastMinedBlockMap = new Map();
@@ -128,7 +128,8 @@ function getSlashedVals(startValsInfo, endValsInfo) {
 function simpleValInfo(valsInfo) {
   return valsInfo.currValidators.map(x => ({
     intro   : x.introduction, 
-    miner   : x.miner_address, 
+    miner   : '0x' + x.miner_address, 
+    rewardTo: x.reward_to,
     vp      : x.voting_power, 
     retiring: x.is_retiring,
   }));
