@@ -6,6 +6,7 @@
 
 | PoS Epoch | Validators | Total Rewards |
 | --------: | ---------: | ------------: |
+|        35 |         11 |             4 |
 |        34 |         11 |             4 |
 |        33 |         11 |             4 |
 |        32 |         11 |             3 |
@@ -38,6 +39,25 @@
 |         5 |          7 |             4 |
 |         4 |          7 |             3 |
 |         3 |          6 |             4 |
+
+## Epoch 35
+
+Height: 18062000 ~ 18263599
+
+| Validator    | RewardTo Address                             | Miner Address                                | Mined Blocks | Offline > 4h | Slashed | Reward |
+| ------------ | -------------------------------------------- | -------------------------------------------- | ------------ | ------------ | ------- | ------ |
+| matrixport   | `0x9a6dd2f7ceb71788de691844d16b6b6852f07aa3` | `0x930c23ce7536b0ede6afe7754134d4011217d6aa` | 16801        |              |         | 0.3636 |
+| SmartVal     | `0x827594fafd443784c85404575214c9a965dda4e6` | `0xf22a003226b2221b00906c7435c2eb582223c5c2` | 16802        |              |         | 0.3636 |
+| 코인판크토시 | `0x492c54e25e98f735b55604c7b11ded202432a830` | `0x32e716daa7c8c2a8af5759bdb2df28df74bbf627` | 33599        |              |         | 0.3636 |
+| ViaBTC       | `0x47fec48177b189598297789dff6a564dcaef64eb` | `0xa928a5794d9852389ff572b1941a672274c6c44a` | 16803        |              |         | 0.3636 |
+| RabbitBCH    | `0x4e7607655a31b9df8b60ee9a1dd527f868c106a2` | `0xfd46d618d0cd459f791f44d9c6e54302658ad142` | 16801        |              |         | 0.3636 |
+| Benswap.cash | `0x2c800937861fc5140955c791bcf021c31fd46d76` | `0x2feb93041fc652b1326a2f07baec5caa8d2353a9` | 16800        |              |         | 0.3636 |
+| BitDeer      | `0xf70d0b3af64f7ec01bbec6d7468cafecd08d5645` | `0x214CF857DAC52298955768763CE0F8E92F0DCCC6` | 16803        |              |         | 0.3636 |
+| SatoshiVision| `0xfd2da63e149d056bd1f66638cd8de775ab73a24d` | `0x2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2` | 16799        |              |         | 0.3636 |
+| chzhx        | `0xe7f72265695a635574cbc60b47cf95c73c80f602` | `0xA0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0` | 16803        |              |         | 0.3636 |
+| New KimDot   | `0xcc8292325cc20f43bb2d9e5fb01f39bf2362471c` | `0x8a37e57702d4e1ebebffbce1d74ade0c4da321a5` | 16796        |              |         | 0.3636 |
+| songoku      | `0x9f292bc24c09ace90827ccbbed7ecf5d797bea12` | `0xfac3a668d5bed3ddbd854b647e3113946be3306a` | 16804        |              |         | 0.3636 |
+
 
 ## Epoch 34
 
