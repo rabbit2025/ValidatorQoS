@@ -1,0 +1,150 @@
+$ node main.js 42
+curr epoch number: 43
+curr epoch start : 19674800
+curr epoch end   : 19876399
+latest height    : 19689197 (14397/201600)
+query posEpochNum: 42
+epochStartH      : 19473200
+epochEndH        : 19674799
+startValsInfo:
+┌─────────┬──────────────────┬──────────────────────────────────────────────┬──────────────────────────────────────────────┬───────┬──────────┐
+│ (index) │      intro       │                    miner                     │                   rewardTo                   │  vp   │ retiring │
+├─────────┼──────────────────┼──────────────────────────────────────────────┼──────────────────────────────────────────────┼───────┼──────────┤
+│    0    │   'matrixport'   │ '0x930C23CE7536B0EDE6AFE7754134D4011217D6AA' │ '0x9a6dd2f7ceb71788de691844d16b6b6852f07aa3' │ 10000 │  false   │
+│    1    │    'SmartVal'    │ '0xF22A003226B2221B00906C7435C2EB582223C5C2' │ '0x827594fafd443784c85404575214c9a965dda4e6' │ 10000 │  false   │
+│    2    │  '코인판크토시'  │ '0x32E716DAA7C8C2A8AF5759BDB2DF28DF74BBF627' │ '0x5a64d06b893c4ea63e872583dab402858d5adb2d' │ 10000 │  false   │
+│    3    │     'ViaBTC'     │ '0xA928A5794D9852389FF572B1941A672274C6C44A' │ '0x47fec48177b189598297789dff6a564dcaef64eb' │ 10000 │  false   │
+│    4    │   'RabbitBCH'    │ '0xFD46D618D0CD459F791F44D9C6E54302658AD142' │ '0x4e7607655a31b9df8b60ee9a1dd527f868c106a2' │ 10000 │  false   │
+│    5    │  'Benswap.cash'  │ '0x2FEB93041FC652B1326A2F07BAEC5CAA8D2353A9' │ '0x0131459ea0e40120bcf232bc46e2b60030901b71' │ 10000 │  false   │
+│    6    │    'BitDeer'     │ '0x214CF857DAC52298955768763CE0F8E92F0DCCC6' │ '0x554f0ce2e51141a75aae5c1232091601b3064ae8' │ 10000 │  false   │
+│    7    │ 'Satoshi Vision' │ '0x2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2' │ '0xfe1a62476b422a98c54d649a67b6a0963395c076' │ 10000 │  false   │
+│    8    │     'chzhx'      │ '0xA0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0' │ '0xe7f72265695a635574cbc60b47cf95c73c80f602' │ 10000 │  false   │
+│    9    │    'songoku'     │ '0xFAC3A668D5BED3DDBD854B647E3113946BE3306A' │ '0x9f292bc24c09ace90827ccbbed7ecf5d797bea12' │ 10000 │  false   │
+│   10    │   'New KimDot'   │ '0x8A37E57702D4E1EBEBFFBCE1D74ADE0C4DA321A5' │ '0xcc8292325cc20f43bb2d9e5fb01f39bf2362471c' │ 10000 │  false   │
+└─────────┴──────────────────┴──────────────────────────────────────────────┴──────────────────────────────────────────────┴───────┴──────────┘
+endValsInfo:
+┌─────────┬──────────────┬──────────────────────────────────────────────┬──────────────────────────────────────────────┬───────┬──────────┐
+│ (index) │    intro     │                    miner                     │                   rewardTo                   │  vp   │ retiring │
+├─────────┼──────────────┼──────────────────────────────────────────────┼──────────────────────────────────────────────┼───────┼──────────┤
+│    0    │ 'matrixport' │ '0x930C23CE7536B0EDE6AFE7754134D4011217D6AA' │ '0x9a6dd2f7ceb71788de691844d16b6b6852f07aa3' │ 10000 │  false   │
+│    1    │  'SmartVal'  │ '0xF22A003226B2221B00906C7435C2EB582223C5C2' │ '0x827594fafd443784c85404575214c9a965dda4e6' │ 10000 │  false   │
+│    2    │   'ViaBTC'   │ '0xA928A5794D9852389FF572B1941A672274C6C44A' │ '0x47fec48177b189598297789dff6a564dcaef64eb' │ 10000 │  false   │
+│    3    │ 'RabbitBCH'  │ '0xFD46D618D0CD459F791F44D9C6E54302658AD142' │ '0x4e7607655a31b9df8b60ee9a1dd527f868c106a2' │ 10000 │  false   │
+│    4    │   'chzhx'    │ '0xA0AD8F2F1799F7C2CB317FEE0BBB25D0142F6AB0' │ '0xe7f72265695a635574cbc60b47cf95c73c80f602' │ 10000 │  false   │
+│    5    │  'songoku'   │ '0xFAC3A668D5BED3DDBD854B647E3113946BE3306A' │ '0x9f292bc24c09ace90827ccbbed7ecf5d797bea12' │ 10000 │  false   │
+└─────────┴──────────────┴──────────────────────────────────────────────┴──────────────────────────────────────────────┴───────┴──────────┘
+slashedVals: [
+  {
+    address: '0x492c54e25e98f735b55604c7b11ded202432a830',
+    pubkey: '0x9521aa3fd352ca12765a2d7d900b70c9141316606766965377ada60aa3bebd6a',
+    reward_to: '0x5a64d06b893c4ea63e872583dab402858d5adb2d',
+    voting_power: 10000,
+    introduction: '코인판크토시',
+    staked_coins: '0x000000000000000000000000000000000000000000000001bd7a1bed4a0a0000',
+    is_retiring: false,
+    miner_address: '32E716DAA7C8C2A8AF5759BDB2DF28DF74BBF627'
+  },
+  {
+    address: '0x2c800937861fc5140955c791bcf021c31fd46d76',
+    pubkey: '0x2cdd6bd9b309ba4c638fb9934f1df196aca2ebb1c7eca6f48088e7a98cae7dbb',
+    reward_to: '0x0131459ea0e40120bcf232bc46e2b60030901b71',
+    voting_power: 10000,
+    introduction: 'Benswap.cash',
+    staked_coins: '0x000000000000000000000000000000000000000000000001bd7a1bed4a0a0000',
+    is_retiring: false,
+    miner_address: '2FEB93041FC652B1326A2F07BAEC5CAA8D2353A9'
+  },
+  {
+    address: '0xf70d0b3af64f7ec01bbec6d7468cafecd08d5645',
+    pubkey: '0x161d6591750c6d77dfa77dbdae1eb353c807a117352d19ec02523246f9b5a708',
+    reward_to: '0x554f0ce2e51141a75aae5c1232091601b3064ae8',
+    voting_power: 10000,
+    introduction: 'BitDeer',
+    staked_coins: '0x000000000000000000000000000000000000000000000001bc16d674ec800000',
+    is_retiring: false,
+    miner_address: '214CF857DAC52298955768763CE0F8E92F0DCCC6'
+  },
+  {
+    address: '0xfd2da63e149d056bd1f66638cd8de775ab73a24d',
+    pubkey: '0x5b336783c34e4f2148f2f0fdab0e703d752d568087814f9efc7eb333eec268cc',
+    reward_to: '0xfe1a62476b422a98c54d649a67b6a0963395c076',
+    voting_power: 10000,
+    introduction: 'Satoshi Vision',
+    staked_coins: '0x000000000000000000000000000000000000000000000001bc16d674ec800000',
+    is_retiring: false,
+    miner_address: '2BB0818FDA78E9432B4FDE90613FD9619DDAFCD2'
+  },
+  {
+    address: '0xcc8292325cc20f43bb2d9e5fb01f39bf2362471c',
+    pubkey: '0xde71db2992855990479dcb37d58d0e1d99bd1fb48cff5667322c47246539d2d1',
+    reward_to: '0xcc8292325cc20f43bb2d9e5fb01f39bf2362471c',
+    voting_power: 10000,
+    introduction: 'New KimDot',
+    staked_coins: '0x000000000000000000000000000000000000000000000001bc16d674ec800000',
+    is_retiring: false,
+    miner_address: '8A37E57702D4E1EBEBFFBCE1D74ADE0C4DA321A5'
+  }
+]
+get block: 19674799, ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+lastMinedBlockMap: [
+  {
+    miner: '0xA0AD8f2f1799f7C2CB317fee0BBB25D0142f6aB0',
+    block: 19674788
+  },
+  {
+    miner: '0xFd46d618d0cD459F791F44D9C6E54302658aD142',
+    block: 19674789
+  },
+  {
+    miner: '0x2feb93041fC652B1326a2F07BAEC5Caa8D2353a9',
+    block: 19674790
+  },
+  {
+    miner: '0xF22a003226b2221b00906C7435C2eB582223C5C2',
+    block: 19674791
+  },
+  {
+    miner: '0x930C23CE7536B0ede6AfE7754134d4011217D6AA',
+    block: 19674792
+  },
+  {
+    miner: '0x32e716daA7C8C2A8AF5759bdB2DF28Df74bbf627',
+    block: 19674794
+  },
+  {
+    miner: '0xA928a5794D9852389FF572b1941A672274c6C44A',
+    block: 19674795
+  },
+  {
+    miner: '0x8A37E57702d4E1ebebfFBce1d74AdE0c4Da321A5',
+    block: 19674796
+  },
+  {
+    miner: '0xFAC3a668D5bEd3DDbd854b647E3113946bE3306A',
+    block: 19674797
+  },
+  {
+    miner: '0x214CF857dAC52298955768763Ce0f8e92f0dCcc6',
+    block: 19674798
+  },
+  {
+    miner: '0x2BB0818fdA78E9432B4Fde90613fD9619DDAfcd2',
+    block: 19674799
+  }
+]
+minedBlocksMap: Map(11) {
+  '0xA0AD8f2f1799f7C2CB317fee0BBB25D0142f6aB0' => 16829,
+  '0xFd46d618d0cD459F791F44D9C6E54302658aD142' => 16803,
+  '0x2feb93041fC652B1326a2F07BAEC5Caa8D2353a9' => 16748,
+  '0xF22a003226b2221b00906C7435C2eB582223C5C2' => 16854,
+  '0x930C23CE7536B0ede6AfE7754134d4011217D6AA' => 16796,
+  '0x32e716daA7C8C2A8AF5759bdB2DF28Df74bbf627' => 33562,
+  '0xA928a5794D9852389FF572b1941A672274c6C44A' => 16846,
+  '0x8A37E57702d4E1ebebfFBce1d74AdE0c4Da321A5' => 16783,
+  '0xFAC3a668D5bEd3DDbd854b647E3113946bE3306A' => 16819,
+  '0x214CF857dAC52298955768763Ce0f8e92f0dCcc6' => 16765,
+  '0x2BB0818fdA78E9432B4Fde90613fD9619DDAfcd2' => 16806
+}
+offlineMinerMap: Map(0) {}
+delayedBlocks: [ { block: 19535886, interval: 198 } ]
+allRewards: 0
